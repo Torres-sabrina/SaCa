@@ -1,0 +1,175 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17/09/2015, 22:01:18
+    Author     : Caroline e Sabrina
+*/
+
+*{margin:0; padding:0;}
+body{
+    background-color: #EEE;
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+}
+.title {font: 50px sans-serif;text-align: center;}
+.subtitle{font: 30px sans-serif;text-align: center; color:#224466;}
+
+.banner{
+    background: #224466;
+    color:#FFF;
+    padding: 50px;
+}
+
+.content form{
+    width: 50%;
+    margin: 1px auto;
+    padding: 50px 100px 50px 100px;
+
+}
+.content form p{ margin-bottom: 60px;}
+
+
+.content form input{
+    background: #FFF;
+    border: none;
+    outline: none;
+    padding: 10px 0 10px 5px;
+    margin-bottom: 20px;
+    width: 80%;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0, 0.22);
+}
+
+.content form select{
+    background: #FFF;
+    border: none;
+    outline: none;
+    padding: 10px 0 10px 5px;
+    margin-bottom: 20px;
+    width: 80%;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0, 0.22);
+
+}
+
+
+.content form input[type="submit"]{
+    background: #224466;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    margin-bottom: 0px;
+    width: 40.5%;
+    color:#FFF;
+}
+.content form input[type="button"]{
+    background: #EF4545; /*#224466 - cor azul*/
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    max-width: 600px;
+    margin: 0 auto;
+    width: 40.5%;
+    color:#FFF;
+}
+
+.content form input[type="button"]:hover,.content form input[type="submit"]:hover{
+    cursor: pointer;
+
+
+
+
+} 
+
+/* botao do menu */
+.i2Style{
+    font:bold 30px sans-serif;
+    text-align: center;
+    font-style:normal;
+    color:#ffffff;
+    background:#224466;
+    border:1px solid #bbb;
+    text-shadow:0px 1px 0px 1px #fff;
+    box-shadow:0px -7px 4px #000000;
+    -moz-box-shadow:0px -7px 4px #000000;
+    -webkit-box-shadow:0px -7px 4px #000000;
+    border-radius:29px 0px 30px 15px;
+    -moz-border-radius:29px 15px 30px 15px;
+    -webkit-border-radius:29px 0px 30px 15px;
+
+    padding:25px 150px;
+    cursor:pointer;
+    max-width: 600px;
+    margin:0 auto;
+    width: 50%;
+
+}
+.i2Style:active{
+    cursor:pointer;
+    position:relative;
+    top:2px;
+}
+
+
+
+
+
+
+/*
+
+.but {
+display: inline-block;
+background-color: #224466;
+color:#FFF;
+padding: 10px 20px;
+text-decoration: none;
+box-sizing: border-box;
+font-family: Helvetica, Arial, sans-serif;
+font-size: 14px;
+border: 0px;
+}
+
+
+
+
+ prova
+
+#contents{  	
+    float: left;  	
+    width: 440px;  	
+    background: #9FC;  	
+    margin: 0 0 0 20px;  
+} 
+#header{
+    background: #CF3;
+}  
+
+*/
+
+
+#tableResultSearch{
+    border-collapse: collapse;
+    border: 1px solid black;
+    width:80%;
+}
+
+#tableResultSearch th, td {
+   border: 1px solid black;
+}
+#tableResultSearch th{
+    height: 40px;
+    text-align: left;
+}
+#tableResultSearch td{
+    height: 40px;
+    vertical-align: bottom;
+}
+
+#tableResultSearch th, td{
+    height: 50px;
+    vertical-align: bottom;
+}
+
+
